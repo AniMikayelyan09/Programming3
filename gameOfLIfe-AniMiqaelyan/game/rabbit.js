@@ -1,4 +1,5 @@
-class Rabbit extends LivingCreature{
+let LivingCreature = require("./LivingCreature ")
+module.exports = class Rabbit extends LivingCreature{
     constructor(x,y){
               super(x,y)
               this.energy = 20
