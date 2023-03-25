@@ -26,9 +26,14 @@ module.exports = class Rabbit extends LivingCreature{
       
         }    
 
+        random(ch){
+            let found = this.chooseCelll(ch)
+            let result = Math.floor(Math.random)*found.length
+            return found(result)
+          }
   mul() {
-    let emptyCell = this.chooseCell(0);
-    let newCell = random(emptyCell)
+    // let emptyCell = this.chooseCell(0);
+    // let newCell = random(emptyCell)
 
     if (newCell && this.energy > 5) {
         let newX = newCell[0];
