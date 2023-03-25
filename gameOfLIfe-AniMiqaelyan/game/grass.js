@@ -11,11 +11,18 @@ let LivingCreature = require("./LivingCreature ")
         
     }
 
+random(ch){
+  let found = this.chooseCelll(ch)
+  let result = Math.floor(Math.random)*found.length
+  return found(result)
+}
 
     mul(){
         this.multiply++
-        var emptyCell = this.chooseCell(0)
-        var newCell = random(emptyCell)
+        // var emptyCell = this.chooseCell(0)
+        // var newCell = random(emptyCell)
+let emptyCell = this.random(0)
+
 
             if(this.multiply >= 8 && newCell){
                   var newX  = newCell[0]
@@ -30,3 +37,4 @@ let LivingCreature = require("./LivingCreature ")
 
     }
 }
+
