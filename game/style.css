@@ -1,0 +1,104 @@
+canvas{
+    margin-left: 30%;
+	 margin-top: -45%;
+    border: 10px solid black;
+    border-radius: 8px;
+    box-shadow: 6px 4px  8px brown;
+	position: absolute;
+}
+
+.header {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url("back.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+  .button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 15px 50px; 
+    border-radius: 18px;
+    color: #212121;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .button-1 {
+    color: #15B54A;
+    border: 3px solid #15B54A;
+    background-image: linear-gradient(to right, transparent 50%, #15B54A 50%);
+    background-size: 200%;
+    background-position: 0%;
+  }
+  
+  .button-1:hover {
+    color: #FFF;
+    background-position: 100%;
+  }
+
+.button-2 {
+    color: #E7FF04;
+    border: 3px solid #E7FF04;
+    background-image: linear-gradient(to right, transparent 50%, #E7FF04 50%);
+    background-size: 200%;
+    background-position: 0%;
+  }
+  
+  .button-2:hover {
+    color: #FFF;
+    background-position: 100%;
+  }
+
+  .button-3 {
+    color: #E53500;
+    border: 3px solid #E53500;
+    background-image: linear-gradient(to right, transparent 50%, #E53500 50%);
+    background-size: 200%;
+    background-position: 0%;
+  }
+  
+  .button-3:hover {
+    color: #FFF;
+    background-position: 100%;
+  }
+  .button-4 {
+    color: #FFAB2B;
+    border: 3px solid #FFAB2B;
+    background-image: linear-gradient(to right, transparent 50%, #FFAB2B 50%);
+    background-size: 200%;
+    background-position: 0%;
+  }
+  
+  .button-4:hover {
+    color: #FFF;
+    background-position: 100%;
+  }
+  .button-5 {
+    color: black;
+    border: 3px solid black;
+    background-image: linear-gradient(to right, transparent 50%, black 50%);
+    background-size: 200%;
+    background-position: 0%;
+  }
+  
+  .button-5:hover {
+    color: #FFF;
+    background-position: 100%;
+  }
